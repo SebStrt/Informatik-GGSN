@@ -4,7 +4,7 @@ print("1 = verschlüsseln, 2 = Entschlüsseln")
 
 i = 0    
 
-if input() == "1": #verschlüsseln
+if input() == "1":
 
     klartext = input("Klartext eingeben: ")
     geheimtext = ""
@@ -13,7 +13,6 @@ if input() == "1": #verschlüsseln
     for zeichen in klartext:
         geheimtext = geheimtext + zeichen
     
-    #ggf. Zeichen austauschen
     geheimtext = geheimtext.replace("ä", "ae")
     geheimtext = geheimtext.replace("ö", "oe")
     geheimtext = geheimtext.replace("ü", "ue")
