@@ -11,8 +11,6 @@ def submit():
     textin = textin_var.get()
     textout = atbasch(textin)
     
-    
-    
     label_tout.config(state = tk.NORMAL)
     label_tout.delete(0, tk.END)
     label_tout.insert(0, textout)

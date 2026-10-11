@@ -8,7 +8,6 @@ def atbasch(textin):
 
     textin = textin.lower()
 
-
     tabelle = str.maketrans("abcdefghijklmnopqrstuvwxyz1234567890.,!?","?!,.0987654321zyxwvutsrqponmlkjihgfedcba")
     textout = textin.translate(tabelle)
 

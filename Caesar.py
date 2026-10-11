@@ -24,9 +24,6 @@ if input() == "1": #verschlüsseln
     
     alpha1 = "abcdefghijklmnopqrstuvwxyz"
     
-    
-    
-    
     for n in range(1, 27):
         alpha2 = alpha1[n :] + alpha1[ : n]
         tabelle = str.maketrans(alpha1, alpha2)
