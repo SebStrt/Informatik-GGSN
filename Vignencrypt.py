@@ -1,6 +1,4 @@
-import Vignere as v
-from tkinter import *
-from tkinter import ttk
+import Vignere_ldp as v
 
 print("Encrypt: 1")
 print("Decrypt: 2")
